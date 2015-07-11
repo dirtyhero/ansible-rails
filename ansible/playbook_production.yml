@@ -1,0 +1,17 @@
+---
+- hosts: app
+  sudo: true
+  vars:
+    hostname: server-production
+    environtment: production
+    ruby_version: 1.9.3
+    rbenv_root: /home/ec2-user/.rbenv
+    rbenv_bin: /home/ec2-user/.rbenv/libexec/rbenv
+  roles:
+    - common
+    - rvm
+    - nginx
+    - mysql
+    - rails
+    #- troubleshooting
+
