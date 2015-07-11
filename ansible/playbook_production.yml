@@ -4,7 +4,7 @@
   vars:
     hostname: server-production
     environtment: production
-    ruby_version: 1.9.3
+    ruby_version: 2.2.0
     rbenv_root: /home/ec2-user/.rbenv
     rbenv_bin: /home/ec2-user/.rbenv/libexec/rbenv
   roles:
