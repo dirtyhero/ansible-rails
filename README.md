@@ -6,4 +6,3 @@
  3. 'ansible-playbook ./ansible/playbook_production.yml'　実行
  
 
-
